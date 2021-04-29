@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="401cd24d-e510-4045-9e73-8236578fa7ca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Tạo trang CV cá nhân.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04_Git_Html/Bai_tap/_04_CV_ca_nhan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_04_Git_Html/Su_dung_co_ban.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1rpfzz2OIWIsJX8Tn7KkE9ozcyF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore.virus.scanning.warn.message" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_04_Git_Html/Bai_tap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\C0421G1_NguyenVanDuc_Module1\_04_Git_Html\Bai_tap" />
+      <recent name="D:\code\C0421G1_NguyenVanDuc_Module1\_04_Git_Html" />
+      <recent name="D:\Git BT\Gitdemo\source" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="401cd24d-e510-4045-9e73-8236578fa7ca" name="Default Changelist" comment="" />
+      <created>1619678217230</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619678217230</updated>
+      <workItem from="1619678220619" duration="72000" />
+      <workItem from="1619678306233" duration="1032000" />
+      <workItem from="1619680903055" duration="48000" />
+      <workItem from="1619680960077" duration="2755000" />
+      <workItem from="1619683815233" duration="5890000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="731" y="260" key="#Notifications" timestamp="1619678333344">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="731" y="260" key="#Notifications/0.0.1536.834@0.0.1536.834" timestamp="1619678333344" />
+    <state x="626" y="139" key="FileChooserDialogImpl" timestamp="1619689674873">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="626" y="139" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1619689674873" />
+  </component>
+</project>
