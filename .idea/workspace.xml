@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="401cd24d-e510-4045-9e73-8236578fa7ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Tạo trang CV cá nhân.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_04_Git_Html/Bai_tap/_04_CV_ca_nhan.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_04_Git_Html/Su_dung_co_ban.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_04_Git_Html/Bai_tap/_04_CV_ca_nhan.html" beforeDir="false" afterPath="$PROJECT_DIR$/_04_Git_Html/Bai_tap/_04_CV_ca_nhan.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +72,13 @@
       <workItem from="1619678306233" duration="1032000" />
       <workItem from="1619680903055" duration="48000" />
       <workItem from="1619680960077" duration="2755000" />
-      <workItem from="1619683815233" duration="5890000" />
+      <workItem from="1619683815233" duration="6324000" />
+      <workItem from="1619715134311" duration="12000" />
+      <workItem from="1619717250705" duration="22000" />
+      <workItem from="1619772760696" duration="1199000" />
+      <workItem from="1619893996276" duration="4573000" />
+      <workItem from="1620064288056" duration="3164000" />
+      <workItem from="1620116727870" duration="3002000" />
     </task>
     <servers />
   </component>
@@ -93,10 +98,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="731" y="260" key="#Notifications" timestamp="1619678333344">
+    <state x="731" y="260" key="#Notifications" timestamp="1620065992940">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="731" y="260" key="#Notifications/0.0.1536.834@0.0.1536.834" timestamp="1619678333344" />
+    <state x="731" y="260" key="#Notifications/0.0.1536.834@0.0.1536.834" timestamp="1620065992940" />
     <state x="626" y="139" key="FileChooserDialogImpl" timestamp="1619689674873">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
