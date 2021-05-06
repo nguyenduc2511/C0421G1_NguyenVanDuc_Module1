@@ -20,8 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="401cd24d-e510-4045-9e73-8236578fa7ca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/_06_javas/thuc_hanh/nhung_JavaScript_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06_javas/thuc_hanh/nhung_javascript_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06_javas/thuc_hanh/nhung_javascript_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06_javas/thuc_hanh/nhung_javascript_3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_07_toan_tu/bai_tap/02_chuyen_doi_tien.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_07_toan_tu/thuc_hanh/02_sd_toan_tu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_07_toan_tu/thuc_hanh/02_sd_toan_tu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_04_Git_Html/Bai_tap/_04_CV_ca_nhan.html" beforeDir="false" afterPath="$PROJECT_DIR$/_04_Git_Html/Bai_tap/_04_CV_ca_nhan.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +37,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -39,11 +46,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1rpfzz2OIWIsJX8Tn7KkE9ozcyF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -52,6 +63,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/_04_Git_Html/Bai_tap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\C0421G1_NguyenVanDuc_Module1" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\code\C0421G1_NguyenVanDuc_Module1\_04_Git_Html\Bai_tap" />
       <recent name="D:\code\C0421G1_NguyenVanDuc_Module1\_04_Git_Html" />
@@ -78,7 +92,8 @@
       <workItem from="1619772760696" duration="1199000" />
       <workItem from="1619893996276" duration="4573000" />
       <workItem from="1620064288056" duration="3164000" />
-      <workItem from="1620116727870" duration="3002000" />
+      <workItem from="1620116727870" duration="22880000" />
+      <workItem from="1620224298856" duration="1655000" />
     </task>
     <servers />
   </component>
@@ -97,14 +112,25 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="731" y="260" key="#Notifications" timestamp="1620065992940">
+    <state x="731" y="260" key="#Notifications" timestamp="1620187934834">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="731" y="260" key="#Notifications/0.0.1536.834@0.0.1536.834" timestamp="1620065992940" />
+    <state x="731" y="260" key="#Notifications/0.0.1536.834@0.0.1536.834" timestamp="1620187934834" />
     <state x="626" y="139" key="FileChooserDialogImpl" timestamp="1619689674873">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="626" y="139" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1619689674873" />
+    <state x="565" y="119" key="RollbackChangesDialog" timestamp="1620198471069">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="565" y="119" key="RollbackChangesDialog/0.0.1536.834@0.0.1536.834" timestamp="1620198471069" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1620200832633">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1620200832633" />
   </component>
 </project>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Currency Conversion </h1>
+<form action="ConvertController" method="POST">
+    <table>
+        <tr>
+            <td>Enter Amount Of Money</td>
+            <td><input type="text" name="txtAmount" value="<%=request.getParameter("txtAmount")%>" /></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Convert" /></td>
+        </tr>
+    </table>
+</form>
+<hr/>
+<%out.print(request.getParameter("txtAmount"));%>$ = ${resultConvert}00 VND
+</body>
+</html>
