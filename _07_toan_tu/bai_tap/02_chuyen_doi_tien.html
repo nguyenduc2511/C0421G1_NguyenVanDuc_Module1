@@ -5,19 +5,44 @@
     <title>Title</title>
 </head>
 <body>
-<h1>Currency Conversion </h1>
-<form action="ConvertController" method="POST">
-    <table>
-        <tr>
-            <td>Enter Amount Of Money</td>
-            <td><input type="text" name="txtAmount" value="<%=request.getParameter("txtAmount")%>" /></td>
-        </tr>
-        <tr>
-            <td><input type="submit" value="Convert" /></td>
-        </tr>
-    </table>
-</form>
-<hr/>
-<%out.print(request.getParameter("txtAmount"));%>$ = ${resultConvert}00 VND
+<table style="margin-top: fill">
+    <tr>
+        <th> Amount </th>
+        <th> from currey</th>
+        <th> to currency</th>
+        <th> </th>
+    </tr>
+    <tr>
+        <td>
+            <input id="money" type="number">
+        </td>
+        <td>
+            <select>
+                <option value="vnd">VND</option>
+            </select>
+        </td>
+        <td>
+            <select>
+                <option value="usd">USD</option>
+            </select>
+        </td>
+        <td>
+            <input type="button" value="convert" onclick="convertMoney()">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="4" id="result"></td>
+    </tr>
+</table>
 </body>
+<script>
+    function convertMoney() {
+        let money = document.getElementById("money").value;
+        console.log("tien nguoi dung nhap vao: "+ money);
+        let result = money/24000;
+        document.getElementById("result").innerText = "result: " + result + " USD"
+
+    }
+
+</script>
 </html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div>
+        <b><label>Họ và tên</label></b>
+        <br>
+        <input type="text" name="name">
+    </div>
+    <div>
+        <b> <label>Điểm môn lý</label></b>
+        <br>
+        <input id="ly" type="number" name="diem">
+    </div>
+    <div>
+        <b> <label>Điểm môn hóa</label></b>
+        <br>
+        <input id="hoa" type="number" name="diem">
+    </div>
+    <div><label></label>
+        <b> <label>Điểm môn sinh</label></b>
+        <br>
+        <input id="sinh" type="number" name="diem">
+    </div>
+        <div><label></label>
+            <b> <label> tong diem</label></b>
+            <br>
+            <input id="tongDiem" type="text" name="diem">
+        </div>
+        <div><label></label>
+            <b> <label> diem trung binh</label></b>
+            <br>
+            <input id="diemTb" type="text" name="diem">
+        </div>
+    <button type="button" onclick="do_click()"> kết quả </button>
+</body>
+</html>
+    <script>
+        function do_click()
+        {
+            let a = parseFloat(document.getElementById("ly").value);
+            let b = parseFloat(document.getElementById("hoa").value);
+            let c = parseFloat(document.getElementById("sinh").value);
+            let sum = a + b + c
+            let chia = sum / 3
+                //alert("tổng điểm:" + sum)
+                //alert("diem trung binh: " + chia)
+            document.getElementById("tongDiem").value = sum;
+            document.getElementById("diemTb").value = chia;
+        }
+
+    </script>
