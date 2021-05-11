@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <title>demo</title>
 </head>
+<table border="1">
+    <tr>
+        <th colspan="4" style="height: 20px; text-align: right" id="a" ></th>
+    </tr>
+    <tr>
+<td><button onclick="abc('1')">1</button></td>
+<td><button onclick="abc('2')">2</button></td>
+<td><button onclick="abc('3')">3</button></td>
+<td><button onclick="abc('+')">+</button></td>
 <body>
-    <h1>tong 2 so</h1>
-    <button type="button" onclick="do_click()"> nhap gia tri 1 va 2 </p>
-    <script>
-    function do_click()
-    {
-            var so1 = parseFloat(prompt("nhap gia tri 1"))
-            var so2 = parseFloat(prompt("nhap gia tri 2"))
-            var ketqua = so1 + so2 ;
-            confirm(ketqua)
-            //document.write("tong 2 so = "+ ketqua)
-    }
+<script>
+function abc(x) {
+document.getElementById("a").innerText = x;
+}
 
     </script>
 </body>

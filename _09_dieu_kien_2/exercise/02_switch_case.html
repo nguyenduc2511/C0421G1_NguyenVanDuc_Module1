@@ -5,57 +5,39 @@
     <title>Title</title>
 </head>
 <body>
-    <b>
-        <label><input type="number" name="month" id="t1" ></label>
+<form>
+        <input type="text" id="t1" >
         <button type="button" onclick="ngay()">tinh so ngay</button>
-    </b>
-        <br>
-        <label><input id="kq" type="text" name="ketqua" ></label>
+        <p id="kq" ></p>
+</form>
     <script>
         function ngay() {
             let month = parseInt(document.getElementById("t1").value);
             let ketqua = ""
                 switch (month) {
-                    case 1:
-                        ketqua = "thang 1 co 31 ngay"
-                        break;
                     case 2:
                         ketqua = "thang 2 co 28 hoac 29 ngay"
                         break;
+                    case 1:
                     case 3:
-                        ketqua = "thang 3 co 31 ngay"
-                        break;
-                    case 4:
-                        ketqua = "thang 4 co 30 ngay"
-                        break;
                     case 5:
-                        ketqua = "thang 5 co 31 ngay"
-                        break;
-                    case 6:
-                        ketqua = "thang 6 co 30 ngay"
-                        break;
                     case 7:
-                        ketqua = "thang 7 co 31 ngay"
-                        break;
                     case 8:
-                        ketqua = "thang 8 co 30 ngay"
-                        break;
-                    case 9:
-                        ketqua = "thang 9 co 31 ngay"
-                        break;
                     case 10:
-                        ketqua = "thang 10 co 30 ngay"
+                    case 12
+                        ketqua = "thang " + month + " co 31 ngay"
                         break;
+
+                    case 4:
+                    case 6:
+                    case 9:
                     case 11:
-                        ketqua = "thang 11 co 31 ngay"
-                        break;
-                    case 12:
-                        ketqua = "thang 12 co 30 ngay"
+                        ketqua = "thang " + month + " co 30 ngay"
                         break;
                     default:
                         ketqua = "nhap ket qua tu 1 den 12"
                 }
-              document.getElementById("kq").value = ketqua
+              document.getElementById("kq").innerText = ketqua
             }
     </script>
 

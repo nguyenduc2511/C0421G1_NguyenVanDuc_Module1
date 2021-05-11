@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p> phuong trinh co dang ax + b = c </p>
+
+    <input id="a" type="number">
+    <input id="b" type="number">
+    <input id="c" type="number">
+
+    <button type="button" onclick="ketqua()"> ket qua </button>
+
+<script>
+    function ketqua() {
+        let a = parseFloat(document.getElementById("a").value);
+        let b = parseFloat(document.getElementById("b").value);
+        let c = parseFloat(document.getElementById("c").value);
+        let x = (c - b)/a
+
+       alert("x = " + x)
+
+
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sự kiện chuột</title>
+</head>
+<body>
+<img src="alphabet-word-images-1295331_640.png" alt="football" id="myImage" style="width: 200px;">
+<br>
+<button type="button" onclick="moveball()">Move Me!</button>
+<script>
+    function set() {
+        imgObj = document.getElementById('myImage');
+        imgObj.style.position = "relative";    //'relative': theo quy định sẵn trong JS-phải link với CSS (vì thực ra đang tạo STYLE ĐỘNG cho imgObj)
+        imgObj.style.left = "0px" //bóng tiến từ cánh trái qua. NẾU :imgObj.style.right" -->tiến từ cánh phải qua--> phải căn chỉnh ảnh cho nằm về bên phải.   }
+
+        function moveball() {
+            imgObj.style.left = parseInt(imgObj.style.left) + 10 + 'px';
+        }
+
+        window.onload = set()
+</script>
+</body>
+</html>

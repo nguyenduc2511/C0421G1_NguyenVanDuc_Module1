@@ -20,17 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="401cd24d-e510-4045-9e73-8236578fa7ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_08_cau_truc_dieu_kien/practise/1_switch_case.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_cau_truc_dieu_kien/practise/1_toan_tu_3_ngoi.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_cau_truc_dieu_kien/practise/2_swith_case.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_cau_truc_dieu_kien/practise/2_toan_tu_3_ngoi.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_cau_truc_dieu_kien/practise/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_cau_truc_dieu_kien/practise/sign.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_09_dieu_kien_2/exercise/01_can_nang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_09_dieu_kien_2/exercise/02_switch_case.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_09_dieu_kien_2/exercise/03_simple_caculator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/demo can nag.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/may_tinh_don_gian.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/pt_b1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_09_dieu_kien_2/exercise/02_switch_case.html" beforeDir="false" afterPath="$PROJECT_DIR$/_09_dieu_kien_2/exercise/02_switch_case.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/tong_2_so.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/tong_2_so.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +98,9 @@
       <workItem from="1620438826477" duration="5450000" />
       <workItem from="1620524081341" duration="3383000" />
       <workItem from="1620607162141" duration="117000" />
+      <workItem from="1620609515015" duration="3064000" />
+      <workItem from="1620619210132" duration="238000" />
+      <workItem from="1620624101137" duration="11958000" />
     </task>
     <servers />
   </component>
@@ -134,10 +131,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="626" y="139" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1619689674873" />
-    <state x="565" y="119" key="RollbackChangesDialog" timestamp="1620373356987">
+    <state x="565" y="119" key="RollbackChangesDialog" timestamp="1620631836239">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="565" y="119" key="RollbackChangesDialog/0.0.1536.834@0.0.1536.834" timestamp="1620373356987" />
+    <state x="565" y="119" key="RollbackChangesDialog/0.0.1536.834@0.0.1536.834" timestamp="1620631836239" />
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1620200832633">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
