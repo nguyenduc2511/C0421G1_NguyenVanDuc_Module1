@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+
+    let array = new Array(10);
+    let index = 0 ;
+    let max = 0;
+    for(let i = 0 ; i<array.length ; i++) {
+        array[i]=parseFloat(prompt("Nhập 10 phần tử"))
+        console.log(array);
+        if (array[i]> max ) {
+            max = array[i];
+            index = i;
+            console.log(max);
+        }
+    }
+    alert("số lớn nhất là " + max + "vi tri " + index)
+
+    </script>
+
+
+</body>
+</html>

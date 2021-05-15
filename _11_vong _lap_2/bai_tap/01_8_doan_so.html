@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+
+    let canDuoi = parseInt(prompt("Nhap can duoi: "));
+    let canTren = parseInt(prompt("Nhap can tren: "));
+    let result = Math.floor((Math.random()*(canTren - canDuoi + 1) + canDuoi));
+
+    document.write("May chon " + result);
+
+    let input = parseInt(prompt("Nhap so du doan: "));
+    let count = 1;
+
+    for(let i = 1 ; i<=3 ; i++) {
+        if (input > result) {
+            input = parseInt(prompt("ban nhap so lon hon, vui long nhap lai: "));
+        } else if (input < result) {
+            input = parseInt(prompt("ban nhap so nho hon, vui long nhap lai: "));
+            count++;
+        } else {
+            alert("Ban da chien thang.");
+            break;
+        }
+    }
+
+<!--    do {-->
+<!--        if(input > result){-->
+<!--            input = parseInt(prompt("ban nhap so lon hon, vui long nhap lai: "));-->
+<!--            count++;-->
+<!--        } else if (input < result){-->
+<!--            input = parseInt(prompt("ban nhap so nho hon, vui long nhap lai: "));-->
+<!--            count++;-->
+<!--        } else {-->
+<!--            alert("Ban da chien thang.");-->
+<!--            break;-->
+<!--        }-->
+<!--    } while (count < 3)-->
+
+</script>
+</body>
+</html>

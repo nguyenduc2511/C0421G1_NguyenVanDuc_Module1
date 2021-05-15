@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    let array = new Array(5);
+    // for (let i=0; i < array.length ; i++) {
+    //     array[i] = prompt("input elements: ");
+    // }
+    // document.write(array + "<br/>" );
+    // for( let i=0; i < array.length ; i++) {
+    //     if( array[i]>=10 ) {
+    //         alert("Các số lớn hơn 10 là: " +array[i]);
+    //     }
+    //     else {
+    //         alert(" số nhỏ hơn 10 là : " + array[i] );
+    //     }
+    // }
+
+    let index=0;
+    for (let i=0;i< array.length;i++) {
+        array[i]=parseFloat(prompt("Nhập các số"))
+        if (array[i] >= 10) {
+            index++;
+        }
+    }
+    alert("các số lớn hơn 10 là " +index);
+</script>
+</body>
+</html>

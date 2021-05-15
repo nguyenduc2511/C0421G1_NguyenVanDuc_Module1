@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = parseInt(prompt("Nhập số muon in ra day Fibonacci: "));
+    let x = 1;
+        y = 2;
+        c = 0;
+    let display = "1 ; 2";
+
+    for (let i =3; i <= a; i++){
+        c = x + y;
+        display += " ; " + c ;
+        x = y;
+        y = c;
+    }
+    console.log(display);
+
+</script>
+</body>
+</html>

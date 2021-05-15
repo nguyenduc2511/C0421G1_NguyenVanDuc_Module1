@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = 1;
+    let b = "";
+    for (let i =0; i< 100; i++){
+        if ((a%3 ===0) && (a%5 ===0)){
+            b += " Fizz_ Buzz ; ";
+            a++;
+        } else if (a%5 ===0){
+            b += " Buzz ; ";
+            a++;
+        } else if (a%3 ===0){
+            b += " Fizz ; ";
+            a++;
+        } else {
+            b += a + " ; " ;
+            a++;
+        }
+    }
+        console.log(b);
+
+</script>
+</body>
+</html>

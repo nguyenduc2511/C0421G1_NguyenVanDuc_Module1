@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+
+    let tien = parseInt(prompt("nhap so tien muon vay voi lai suat 5,5% : "))
+    let thang = parseInt(prompt("so thang tra = "))
+    let a = tien/thang * 0.055;
+    let lai = 0;
+    let sum = 0;
+    for (let i =1; i<= thang ;i++){
+        lai += a;
+        console.log(lai);
+    }
+     sum = tien + lai
+    console.log("tien lai = "+ lai );
+    document.write("tong so tien phai tra trong " + thang + " thang la : " + sum)
+
+</script>
+</body>
+</html>
