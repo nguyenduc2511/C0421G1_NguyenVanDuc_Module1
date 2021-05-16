@@ -20,44 +20,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="401cd24d-e510-4045-9e73-8236578fa7ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_10_vong_lap_1/thuc_hanh/01_lap_for_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_10_vong_lap_1/thuc_hanh/02_lap_for_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_10_vong_lap_1/thuc_hanh/02_lap_while_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_10_vong_lap_1/thuc_hanh/02_lap_while_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_10_vong_lap_1/thuc_hanh/do_while.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_10_vong_lap_1/thuc_hanh/loop_to_loop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11_vong _lap_2/bai_tap/01_1_dem_tu_1_100.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11_vong _lap_2/bai_tap/01_2_nhiet_do.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11_vong _lap_2/bai_tap/01_3_fibonacci_20th.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11_vong _lap_2/bai_tap/01_4_fibonacci_chia_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11_vong _lap_2/bai_tap/01_5_fibonacci_sum20.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11_vong _lap_2/bai_tap/01_6_sum_30so_chia_7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11_vong _lap_2/bai_tap/01_7_dem_1_to_100_fizzBuzz.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11_vong _lap_2/bai_tap/01_8_doan_so.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11_vong _lap_2/bai_tap/02_1_so_fibonacci.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11_vong _lap_2/bai_tap/02_2_giai_thua_1so.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11_vong _lap_2/bai_tap/02_4_hinh_chu_nhat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11_vong _lap_2/bai_tap/02_5_lai_ngan_hang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11_vong _lap_2/bai_tap/bang_cuu_chuong.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11_vong _lap_2/bai_tap/practice_vonglap_02.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11_vong _lap_2/bai_tap/so_nguyen_to.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12_mang_array_1/thuc_hanh/01_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12_mang_array_1/thuc_hanh/01_2_so_chan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/01_ham_co san.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/VVV.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/chen_random_vao_mang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/de_mo _luong.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/dem_1_99.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/game_doan_so.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/max_stb.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/nhiet_do.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/so_lon_hon_10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/so_lon_nhat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/th_for.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/tu_dien.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/xam xam.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/ádá.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_mang_array_1/thuc_hanh/01_thao_tac_mang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_mang_array_1/thuc_hanh/03_dao_nguoc_mang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_mang_array_1/thuc_hanh/04_find_data_on_array.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_mang_array_1/thuc_hanh/06_ban_co.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_mang_array_2/03_8_sap_xep_giam.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_mang_array_2/03_9_gop_mang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/01_1_ham_co san.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/01_2_chen-vao_so_chan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/01_3_chu_thuong_hoa.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/02_tu_dien.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/03_1_so_lon_hon_10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/03_2_tim_max.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/03_3_max_so_trung_binh.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/03_4_dao_nguoc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/03_5_nguyen_am.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/03_6_tim_xoa_v.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/03_7_tim_xoa_v.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/04_1_mang_2chieu_in.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/04_2_dao_nguoc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/practice_02.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_vong _lap_2/bai_tap/02_4_hinh_chu_nhat.html" beforeDir="false" afterPath="$PROJECT_DIR$/_11_vong _lap_2/bai_tap/02_4_hinh_chu_nhat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_12_mang_array_1/thuc_hanh/01_.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_13_mang_array_2/exercise/01_ham_co san.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/chen_random_vao_mang.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/chen_random_vao_mang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/max_stb.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/max_stb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/so_lon_hon_10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/tu_dien.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,14 +83,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/_04_Git_Html/Bai_tap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\C0421G1_NguyenVanDuc_Module1\_13_mang_array_2\exercise" />
+      <recent name="D:\code\C0421G1_NguyenVanDuc_Module1\_11_vong _lap_2\bai_tap" />
+      <recent name="D:\code\C0421G1_NguyenVanDuc_Module1" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\code\C0421G1_NguyenVanDuc_Module1\_04_Git_Html\Bai_tap" />
       <recent name="D:\code\C0421G1_NguyenVanDuc_Module1\_04_Git_Html" />
       <recent name="D:\Git BT\Gitdemo\source" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\code\C0421G1_NguyenVanDuc_Module1\_11_vong _lap_2\bai_tap" />
-      <recent name="D:\code\C0421G1_NguyenVanDuc_Module1" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.01_2_so_chan.html">
@@ -159,6 +150,9 @@
       <workItem from="1621000669175" duration="595000" />
       <workItem from="1621042713473" duration="3595000" />
       <workItem from="1621086885684" duration="9319000" />
+      <workItem from="1621132158166" duration="531000" />
+      <workItem from="1621153169111" duration="1219000" />
+      <workItem from="1621167305513" duration="12186000" />
     </task>
     <servers />
   </component>
@@ -257,10 +251,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1515" height="265" key="GridCell.Tab.3.right/0.0.1536.834@0.0.1536.834" timestamp="1620988138766" />
-    <state x="565" y="119" key="RollbackChangesDialog" timestamp="1620631836239">
+    <state x="565" y="119" key="RollbackChangesDialog" timestamp="1621178423937">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="565" y="119" key="RollbackChangesDialog/0.0.1536.834@0.0.1536.834" timestamp="1620631836239" />
+    <state x="565" y="119" key="RollbackChangesDialog/0.0.1536.834@0.0.1536.834" timestamp="1621178423937" />
     <state x="314" y="146" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1620961312822">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    let arr = new Array(5);
+    for(let i = 0; i< arr.length; i++){
+        arr[i] = parseInt(prompt("input element at " + i + " :"));
+    }
+​
+    let v = parseInt(prompt("input V: "));
+​
+    let isExist = false;
+    for (let i = 0; i < arr.length; i++) {
+        if (v === arr[i]) {
+            document.write("V is in array");
+            isExist = true;
+            break;
+        }
+    }
+    if(isExist === false){
+        document.write("V is NOT in array");
+    }
+​
+</script>
+</body>
+</html>

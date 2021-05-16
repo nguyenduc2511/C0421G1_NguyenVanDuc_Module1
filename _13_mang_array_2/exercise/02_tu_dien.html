@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <input type="text" id="nghia" name ="eng word" >
+    <button onclick="trans()">thế giới động vật </button>
+    <p id="dich"></p>
+
+<script>
+
+    function trans(){
+        a = document.getElementById("nghia").value;
+        let arrayEn = ["dog","cat","monkey","mouse","chicken","lion","bird"];
+        let arrayVn = ["chó","mèo","khỉ","chuột","Gà","sư tử","chim"];
+        let i = 0;
+        while (i < arrayEn.length){
+            if (a === arrayEn[i]){
+                document.getElementById("dich").innerText = arrayVn[i];
+                break;
+            }
+            i++;
+            document.getElementById("dich").innerText = "Sorry, dont have word here";
+        }
+    }
+
+</script>
+</body>
+</html>

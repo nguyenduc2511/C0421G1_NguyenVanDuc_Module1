@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr = new Array(5);
+    for(let i = 0; i< arr.length; i++){
+        arr[i] = parseInt(prompt("input data"))
+    }
+    let dem = 0;
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] < 0 ) {
+            dem++;
+            console.log(arr[i]);
+        }
+    }
+       alert("có " + dem + " số nguyên âm trong mảng" )
+</script>
+</body>
+</html>

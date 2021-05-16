@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let One= new Array(5);
+    let Two= new Array(5);
+    for (let i =0; i < One.length;i++){
+        One[i] = parseInt(prompt("Nhập giá trị của mảng 1: "))
+    }
+    for (let i =0; i < Two.length;i++){
+        Two[i] = parseInt(prompt("Nhập giá trị của mảng 2: "))
+    }
+    One.push(...Two)
+    document.write(One);
+//    one.conrat(two);
+</script>
+</body>
+</html>
