@@ -19,36 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="401cd24d-e510-4045-9e73-8236578fa7ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_12_mang_array_1/thuc_hanh/01_thao_tac_mang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12_mang_array_1/thuc_hanh/03_dao_nguoc_mang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12_mang_array_1/thuc_hanh/04_find_data_on_array.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12_mang_array_1/thuc_hanh/06_ban_co.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_13_mang_array_2/03_8_sap_xep_giam.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_13_mang_array_2/03_9_gop_mang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/01_1_ham_co san.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/01_2_chen-vao_so_chan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/01_3_chu_thuong_hoa.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/02_tu_dien.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/03_1_so_lon_hon_10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/03_2_tim_max.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/03_3_max_so_trung_binh.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/03_4_dao_nguoc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/03_5_nguyen_am.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/03_6_tim_xoa_v.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/03_7_tim_xoa_v.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/04_1_mang_2chieu_in.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/04_2_dao_nguoc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/practice_02.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11_vong _lap_2/bai_tap/02_4_hinh_chu_nhat.html" beforeDir="false" afterPath="$PROJECT_DIR$/_11_vong _lap_2/bai_tap/02_4_hinh_chu_nhat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_12_mang_array_1/thuc_hanh/01_.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_13_mang_array_2/exercise/01_ham_co san.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/chen_random_vao_mang.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/chen_random_vao_mang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/max_stb.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/max_stb.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/so_lon_hon_10.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/tu_dien.html" beforeDir="false" />
-    </list>
+    <list default="true" id="401cd24d-e510-4045-9e73-8236578fa7ca" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -152,7 +123,7 @@
       <workItem from="1621086885684" duration="9319000" />
       <workItem from="1621132158166" duration="531000" />
       <workItem from="1621153169111" duration="1219000" />
-      <workItem from="1621167305513" duration="12186000" />
+      <workItem from="1621167305513" duration="12449000" />
     </task>
     <servers />
   </component>
