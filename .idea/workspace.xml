@@ -20,13 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="401cd24d-e510-4045-9e73-8236578fa7ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/04_3_dem_so.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/04_4_dem_so_tu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/04_5_2_so_sanh_2_chuoi.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/04_5_so_sanh_2_mang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/04_6_thay_doi_ky_tu_-.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/chen_random_vao_mang.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/chen_random_vao_mang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_13_mang_array_2/exercise/03_8_sap_xep_giam.html" beforeDir="false" afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/03_8_sap_xep_giam.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_13_mang_array_2/exercise/04_5_2_so_sanh_2_chuoi.html" beforeDir="false" afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/04_5_2_so_sanh_2_chuoi.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +129,7 @@
       <workItem from="1621153169111" duration="1219000" />
       <workItem from="1621167305513" duration="12449000" />
       <workItem from="1621184879502" duration="81000" />
-      <workItem from="1621214083503" duration="8682000" />
+      <workItem from="1621214083503" duration="10084000" />
     </task>
     <servers />
   </component>

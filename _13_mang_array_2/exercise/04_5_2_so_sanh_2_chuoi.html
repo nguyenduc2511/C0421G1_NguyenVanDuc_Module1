@@ -8,11 +8,27 @@
 <script>
     let chuoi1 = prompt("nhap chuoi 1 : ");
     let chuoi2 = prompt("nhap chuoi 2 : ");
-    console.log(chuoi1);
-    console.log(chuoi2);
-    if (chuoi1 == chuoi2 ){
-        console.log("2 chuoi giong nhau");
-    }else console.log("2 chuoi khac nhau");
+
+    let mangChuoi1 = chuoi1.split(' ');
+    let mangChuoi2 = chuoi2.split(' ');
+    console.log(mangChuoi1);
+    console.log(mangChuoi2);
+    let check = false
+
+    if(mangChuoi1.length === mangChuoi2.length){
+        for(let i =0 ; i< mangChuoi1.length ; i++){
+           if( mangChuoi1[i] == mangChuoi2[i]){
+               check = true;
+           } else {
+               check = false;
+               break;
+           }
+        }
+        if(check===true){
+            console.log("2 chuoi giong nhau ") ;
+        }else console.log("2 chuoi khac nhau ");
+    }else console.log("2 chuoi khac nhau ");
+
 </script>
 </body>
 </html>
