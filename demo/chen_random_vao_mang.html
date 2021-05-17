@@ -7,10 +7,10 @@
 <body>
 <script>
 
-    let array = [9,8,45,71];
-    let rd = Math.floor((Math.random()* array.length));
+    let array = [9,8,45,71,20,30,45,60];
+    let rd = parseInt(prompt("nhap vi tri muon chen : "));
     console.log(rd)
-    let data = parseFloat(prompt("nhap gia tri : "));
+    let data = parseFloat(prompt("nhap gia tri can chen : "));
 
     // array.push(data);
     // for(let i = rd ;i< array.length; i++){
@@ -20,8 +20,10 @@
     // }
     // document.write('Array after arranging: ' + array)
 
-    let result = [array[0]];
-    for (let i= 1 ; i < array.length; i++){
+    // array.splice(rd,0,data);
+
+    let result = [];
+    for (let i= 0 ; i <= array.length; i++){
         if ( i === rd ){
             result.push(data,array[i]);
         }else {

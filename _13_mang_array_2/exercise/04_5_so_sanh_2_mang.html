@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = parseInt(prompt("do dai cua mang = "));
+    let arrayA = new Array(a);
+
+    for( let i = 0 ; i < arrayA.length ; i++){
+        arrayA[i]=prompt("input data : ")
+    }
+    console.log(arrayA);
+
+    let b = parseInt(prompt("do dai cua mang = "));
+    let arrayB = new Array(b);
+    for( let i = 0 ; i < arrayB.length ; i++){
+        arrayB[i]=prompt("input data : ");
+    }
+    console.log(arrayB);
+
+    let check = false;
+
+    if(a === b){
+        for(let i= 0 ; i<arrayA.length; i++){
+                if(arrayA[i]===arrayB[i]){
+                    check = true;
+                }else {
+                    check = false;
+                    break;
+                }
+            }
+        if(check===true){
+            console.log("2 mang giong nhau");
+        } else {console.log("2 mang khong giong nhau");}
+    }else console.log("2 mang co do dai khac nhau ");
+
+
+</script>
+</body>
+</html>
