@@ -20,9 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="401cd24d-e510-4045-9e73-8236578fa7ca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/_11_vong _lap_2/bai_tap/02_3_hinh_tam_giac.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_11_vong _lap_2/bai_tap/practice_vonglap_02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_tap_t/01_hinh_chu_nhat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_tap_t/Giải thuât.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_13_mang_array_2/exercise/03_8_sap_xep_giam.html" beforeDir="false" afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/03_8_sap_xep_giam.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_vong _lap_2/bai_tap/01_2_nhiet_do.html" beforeDir="false" afterPath="$PROJECT_DIR$/_11_vong _lap_2/bai_tap/01_2_nhiet_do.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_vong _lap_2/bai_tap/02_4_hinh_chu_nhat.html" beforeDir="false" afterPath="$PROJECT_DIR$/_11_vong _lap_2/bai_tap/02_4_hinh_chu_nhat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_13_mang_array_2/exercise/01_3_chu_thuong_hoa.html" beforeDir="false" afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/01_3_chu_thuong_hoa.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_13_mang_array_2/exercise/04_3_dem_so.html" beforeDir="false" afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/04_3_dem_so.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_13_mang_array_2/exercise/04_5_2_so_sanh_2_chuoi.html" beforeDir="false" afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/04_5_2_so_sanh_2_chuoi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_13_mang_array_2/exercise/04_6_thay_doi_ky_tu_-.html" beforeDir="false" afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/04_6_thay_doi_ky_tu_-.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/xam xam.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/xam xam.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +138,7 @@
       <workItem from="1621153169111" duration="1219000" />
       <workItem from="1621167305513" duration="12449000" />
       <workItem from="1621184879502" duration="81000" />
-      <workItem from="1621214083503" duration="10084000" />
+      <workItem from="1621214083503" duration="27571000" />
     </task>
     <servers />
   </component>
@@ -228,10 +237,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1515" height="265" key="GridCell.Tab.3.right/0.0.1536.834@0.0.1536.834" timestamp="1620988138766" />
-    <state x="565" y="119" key="RollbackChangesDialog" timestamp="1621178423937">
+    <state x="565" y="119" key="RollbackChangesDialog" timestamp="1621244713114">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="565" y="119" key="RollbackChangesDialog/0.0.1536.834@0.0.1536.834" timestamp="1621178423937" />
+    <state x="565" y="119" key="RollbackChangesDialog/0.0.1536.834@0.0.1536.834" timestamp="1621244713114" />
     <state x="314" y="146" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1620961312822">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

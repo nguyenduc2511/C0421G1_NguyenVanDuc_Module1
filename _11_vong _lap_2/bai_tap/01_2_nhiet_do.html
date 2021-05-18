@@ -8,8 +8,8 @@
 
 <script>
     let t = null;
-
-    while (true){
+    let dem = 0;
+   do{
         let t = parseInt(prompt("nhap nhiet do : "))
         if (t >=100) {
             alert("can giam nhiet do")
@@ -17,8 +17,8 @@
             alert("can tang nhiet do ")
         } else
             {alert(" binh thuong " + t )}
-
-    }
+       dem ++;
+    }while (dem <=5)
 
 
 
