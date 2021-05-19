@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div>
+    <span> meter </span>
+    <input type="number" id="meter">
+    <p id = "output1"></p>
+</div>
+<div>
+    <span> feet </span>
+    <input type="number" id="feet">
+    <p id = "output2"></p>
+</div>
+<button onclick="do_click()">doi gia tri </button>
+
+<script>
+
+        function footToMeter(foot) {
+            return (0.305 * parseFloat(foot));
+        }
+        function meterToFoot(meter){
+            return ( 3.279 * parseFloat(meter));
+        }
+        function do_click() {
+            let meter1 = document.getElementById("meter").value;
+            let foot1 = document.getElementById("feet").value;
+            if(meter1!== null){
+                document.getElementById("output1").innerHTML ="to feet = " + meterToFoot(meter1)
+            }
+            if(foot1 !== null){
+                document.getElementById("output2").innerHTML = " to meter = " + footToMeter(foot1)
+            }
+        }
+
+</script>
+
+</body>
+</html>

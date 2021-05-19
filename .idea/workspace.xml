@@ -20,18 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="401cd24d-e510-4045-9e73-8236578fa7ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_11_vong _lap_2/bai_tap/02_3_hinh_tam_giac.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11_vong _lap_2/bai_tap/practice_vonglap_02.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_tap_t/01_hinh_chu_nhat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_tap_t/Giải thuât.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_14_ham_so/02_chuyen _nhiet_.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_14_ham_so/03_min_array.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_15_gam_so_2/exercise/01_so_nguyen_to.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_15_gam_so_2/exercise/02_doi_meter_feet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_15_gam_so_2/exercise/03_1_goi_ham_tu_body.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11_vong _lap_2/bai_tap/01_2_nhiet_do.html" beforeDir="false" afterPath="$PROJECT_DIR$/_11_vong _lap_2/bai_tap/01_2_nhiet_do.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11_vong _lap_2/bai_tap/02_4_hinh_chu_nhat.html" beforeDir="false" afterPath="$PROJECT_DIR$/_11_vong _lap_2/bai_tap/02_4_hinh_chu_nhat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_13_mang_array_2/exercise/01_3_chu_thuong_hoa.html" beforeDir="false" afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/01_3_chu_thuong_hoa.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_13_mang_array_2/exercise/04_3_dem_so.html" beforeDir="false" afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/04_3_dem_so.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_13_mang_array_2/exercise/04_5_2_so_sanh_2_chuoi.html" beforeDir="false" afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/04_5_2_so_sanh_2_chuoi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_13_mang_array_2/exercise/04_6_thay_doi_ky_tu_-.html" beforeDir="false" afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/04_6_thay_doi_ky_tu_-.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/xam xam.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/xam xam.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_13_mang_array_2/exercise/03_2_tim_max.html" beforeDir="false" afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/03_2_tim_max.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_13_mang_array_2/exercise/03_7_tim_xoa_v.html" beforeDir="false" afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/03_7_tim_xoa_v.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_13_mang_array_2/exercise/04_4_dem_so_tu.html" beforeDir="false" afterPath="$PROJECT_DIR$/_13_mang_array_2/exercise/04_4_dem_so_tu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/max_stb.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/max_stb.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,15 +65,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/_04_Git_Html/Bai_tap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\code\C0421G1_NguyenVanDuc_Module1\_13_mang_array_2\exercise" />
-      <recent name="D:\code\C0421G1_NguyenVanDuc_Module1\_11_vong _lap_2\bai_tap" />
-      <recent name="D:\code\C0421G1_NguyenVanDuc_Module1" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\code\C0421G1_NguyenVanDuc_Module1\_04_Git_Html\Bai_tap" />
       <recent name="D:\code\C0421G1_NguyenVanDuc_Module1\_04_Git_Html" />
       <recent name="D:\Git BT\Gitdemo\source" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\C0421G1_NguyenVanDuc_Module1\_13_mang_array_2\exercise" />
+      <recent name="D:\code\C0421G1_NguyenVanDuc_Module1\_11_vong _lap_2\bai_tap" />
+      <recent name="D:\code\C0421G1_NguyenVanDuc_Module1" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.01_2_so_chan.html">
@@ -139,6 +137,9 @@
       <workItem from="1621167305513" duration="12449000" />
       <workItem from="1621184879502" duration="81000" />
       <workItem from="1621214083503" duration="27571000" />
+      <workItem from="1621313961755" duration="13748000" />
+      <workItem from="1621357444389" duration="2254000" />
+      <workItem from="1621386985756" duration="6768000" />
     </task>
     <servers />
   </component>
@@ -237,10 +238,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1515" height="265" key="GridCell.Tab.3.right/0.0.1536.834@0.0.1536.834" timestamp="1620988138766" />
-    <state x="565" y="119" key="RollbackChangesDialog" timestamp="1621244713114">
+    <state x="565" y="119" key="RollbackChangesDialog" timestamp="1621390482418">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="565" y="119" key="RollbackChangesDialog/0.0.1536.834@0.0.1536.834" timestamp="1621244713114" />
+    <state x="565" y="119" key="RollbackChangesDialog/0.0.1536.834@0.0.1536.834" timestamp="1621390482418" />
     <state x="314" y="146" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1620961312822">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

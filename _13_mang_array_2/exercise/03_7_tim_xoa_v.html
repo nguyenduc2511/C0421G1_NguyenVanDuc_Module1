@@ -9,7 +9,7 @@
 
     let array= new Array(5);
     let check = false;
-    let Delete;
+    let del;
 
     for (let i =0; i < array.length;i++){
         array[i] = parseInt(prompt("Nhập vào giá trị của các phần tử: "));
@@ -20,13 +20,13 @@
       for (let i=0; i< array.length; i++){
         if (a === array[i]) {
             check = true;
-            Delete = array[i];
+            del = array[i];
         }
     }
    if(check === true){
         alert("Mảng ban đầu: " + array);
-        array.indexOf(Delete);
-        array.splice(array.indexOf(Delete),1);
+        array.indexOf(del);
+        array.splice(array.indexOf(del),1);
         array.push(0);
         alert(array);
 
