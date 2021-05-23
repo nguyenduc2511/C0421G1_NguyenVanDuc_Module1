@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function calculator(number) {
+        let num =1;
+        for (let i = number ; i > 1 ; i--){
+            num *= i;
+        }
+        return num;
+    }
+
+    let a = parseFloat(prompt("nhap so tinh giai thua : "));
+    alert("Giai thừa của "+ a + " là: " + calculator(a));
+</script>
+</body>
+</html>

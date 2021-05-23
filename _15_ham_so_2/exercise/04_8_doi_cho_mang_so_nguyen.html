@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    // function doiCho1(number) {
+    //     number.reverse()
+    //     return number;
+    // }
+    function doiCho(number) {
+        let arr = [];
+        for (let i = number.length - 1; i >= 0; i--) {
+            arr.push(number[i]);
+        }
+        number= arr
+        return number;
+    }
+
+
+    let a = parseFloat(prompt("so phan tu trong mang = "));
+    let array = new Array(a);
+    for(let i = 0; i < array.length;i++){
+        array[i]=parseFloat(prompt("input number = "));
+    }
+    console.log(array);
+    alert("mang ban dau = " + array);
+    alert("mang sau khi doi cho = " + doiCho(array));
+    console.log(array)
+    // console.log(doiCho1(array));
+
+</script>
+</body>
+</html>

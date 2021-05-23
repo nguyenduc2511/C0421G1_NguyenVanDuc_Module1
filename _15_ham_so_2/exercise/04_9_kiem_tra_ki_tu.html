@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function kiemTra(array) {
+        let letter = prompt("nhap ki tự muốn kiểm tra : ")
+        let check = false
+        let count = 0;
+        for (let i = 0; i < array.length; i++) {
+            if (letter === array[i]) {
+                count++;
+                check = true;
+            }
+        }
+        if (check) {
+            alert("Có ký tự " + letter + " trong mảng và tần số xuất hiện của ký tự: " + count);
+        } else {
+            alert("Không có ký tự " + letter + " này trong mảng ");
+        }
+    }
+
+    let a = parseInt(prompt("nhap do dai mang "));
+    let array = new Array(a);
+    for (let i = 0; i< array.length; i++){
+        array[i]=prompt("nhap gia tri : ");
+    }
+
+    kiemTra(array);
+
+</script>
+</body>
+</html>

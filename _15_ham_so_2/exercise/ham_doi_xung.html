@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    
+    function  isPalindrome(chuoi) {
+        let  arrchuoi= chuoi.split("");
+        console.log(arrchuoi);
+        let check = true;
+        let a = arrchuoi.length -1;
+        let i = 0;
+        do{
+            if( arrchuoi[i] !== arrchuoi[a] ) {
+                check = false;
+                break;
+            }
+            a--;
+            i++;
+        }while (i<arrchuoi.length)
+
+        if(check){
+            console.log("chuoi doi xung ") ;
+        }else {console.log("chuoi khong doi xung ")}
+    }
+
+
+    let abc = prompt("nhap chuoi muon kiem tra : ");
+
+    isPalindrome(abc);
+
+</script>
+</body>
+</html>
