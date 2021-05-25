@@ -6,10 +6,90 @@
 </head>
 <body>
 <script>
-    class mobile {
-        constructor(battery,mess,) {
+
+    class Mobile {
+        constructor(battery,editMessage,inboxMessage,outboxMessage) {
+            this.battery = battery;
+            this.editMessage = [];
+            this.inboxMessage =[];
+            this.outboxMessage = [];
+            this.status = false;
+        }
+        decreaseBattery(){
+            if(this.battery>0){
+                this.battery --;
+            }
+        }
+        chargeBattery(){
+            if (this.battery === 100) {
+                alert('Full charge! (100%)');
+            } else {
+                for(let i = this.battery ; i<100 ; i++) {
+                    this.battery++;
+                }
+                alert('full charge :' + this.battery + '%. Disconnect the electric.');
+            }
+        }
+        turnOn() {
+            if (this.status) {
+                alert('Mobile is ON');
+                this.status = true;
+            } else {
+                alert('turned on mobile')
+                this.status = true;
+            }
+            this.decreaseBattery();
+        }
+        turnOff(){
+            if(this.status){
+                alert("mobile is off ");
+                this.status = false;
+            }else {
+                alert("turn off moblie ");
+                this.status = false;
+            }
+        }
+        setMessage(message) {
+            this.message = message;
+            this.editMessage.push(message)
+            this.decreaseBattery();
+        }
+        getMessage(message){
+            this.decreaseBattery()
+           return this.message;
+        }
+        sendMessage(message,mobile){
+            mobile.setMessage(message);
+            this.outboxMessage.push(message);
+            mobile.inboxMessage.push(message);
+            this.decreaseBattery();
+        }
+        seeOutbox() {
+            this.decreaseBattery();
+            console.log(this.outboxMessage.join(','));
+        }
+        seeInbox() {
+            this.decreaseBattery();
+            console.log(this.inboxMessage.join(','));
+        }
+        operate() {
+            if (this.status === false) {
+                if (confirm('Mobile is OFF. Turn mobile on to use?')) {
+                    this.status = true
+                    alert('Mobile is turning ON')
+                }
+            }
         }
     }
+
+
+    let iphone = new Mobile(100);
+
+    let nokia = new Mobile(50);
+    nokia.sendMessage('from nokia: hello apple ', iphone);
+    console.log(iphone.getMessage());
+
+    // iphone.chargeBattery();
 </script>
 </body>
 </html>
