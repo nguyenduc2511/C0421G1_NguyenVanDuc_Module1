@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+        // let a = parseInt(prompt("nhap do dai mang A "))
+        // let arrayA = new Array(a);
+        // for (let i = 0; i < arrayA.length; i++) {
+        //     arrayA[i] = parseInt(prompt("nhap so nguyen vao mang A"))}
+        // console.log(arrayA)
+        // let b = parseInt(prompt("nhap do dai mang B "))
+        // let arrayB = new Array(b);
+        // for (let i = 0; i < arrayB.length; i++) {
+        //     arrayB[i] = parseInt(prompt("nhap so nguyen vao mang B"));
+        // }
+        // console.log(arrayB)
+        //
+        let arrayA=[7,2,5,3,5,3];
+        let arrayB=[7,2,5,4,6,3,5,3]
+        let c = []
+//rut ngan cac gia tri tung lap trong mang
+        let a = Array.from(new Set(arrayA));
+        let b = Array.from(new Set(arrayB));
+        console.log(a);
+        console.log(b);
+
+        for (let i =0;i<b.length;i++){
+            if (a.indexOf(b[i]) != -1){
+                continue;
+            }else {
+                c.push(b[i]);
+            }
+        }
+    console.log(c)
+
+
+</script>
+</body>
+</html>

@@ -5,6 +5,26 @@
     <title>Title</title>
 </head>
 <body>
+<script>
+   function prefixSums(arr) {
+        let arr2=[];
+        let sum = 0;
+        for (let i = 0;i<arr.length;i++){
+            sum+=arr[i];
+            arr2.push(sum);
+        }
+        return arr2;
+   }
 
+   let a = parseInt(prompt("nhap do dai mang "))
+    let array = new Array(a);
+   for (let i = 0;i<array.length;i++){
+       array[i]=parseInt(prompt("nhap gia tri vao mang"))
+   }
+   console.log(array)
+   let b = prefixSums(array)
+    console.log(b)
+
+</script>
 </body>
 </html>
