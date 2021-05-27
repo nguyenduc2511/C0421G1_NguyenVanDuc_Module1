@@ -7,7 +7,49 @@
 <body>
 <script>
 
-    var array = [5,3,4,1];
+    var arr = [9,8,-5,6];
+    var arr2=[5,8,6,6]
+
+    function compareTriplets(a, b) {
+        // Write your code here
+        let count1=0;
+        let count2=0;
+        let c=[];
+        for(let i=0;i<a.length;i++){
+            if(a[i]>b[i]){
+                count1++;
+            }else if(a[i]<b[i]){
+                count2++;
+            }
+        }
+        c.push(count1);
+        c.push(count2)
+        return c
+    }
+    console.log(compareTriplets(arr,arr2))
+
+
+    // let arrnew = [];
+    // let max = arr[0];
+    // let sum = 0;
+    // let min = arr[0];
+    // for (let i = 1; i < arr.length; i++) {
+    //     sum = sum + arr[i]
+    //     if (arr[i] > max) {
+    //         max = arr[i];}
+    //     if (arr[i] < min) {
+    //         min = arr[i];
+    //     }
+    // }
+    // arrnew.push(max);
+    // arrnew.push(min);
+    // avg = sum / arr.length
+    // arrnew.push(avg);
+    // document.write(arrnew)
+
+
+
+
     //
     // for(var x=0; x < array.length; x++)
     // {
@@ -22,19 +64,52 @@
     //     }
     // }
     //
-    function swap(arr) {
-        //your code here
-        let temp = 0;
-        for(let x=0; x < arr.length; x++){
-            for(let y = arr.length-1;y>0;y--){
-                temp = arr[y];
-                arr[y] = arr[x];
-                arr[x] = temp;
-            }
-        }
-        return arr;
-    }
-    console.log(swap(array))
+    //7
+    // msg = 'codegym';
+    // console.log(msg.length)
+    // for(var x = 0; x < msg.length - 1; x++)   //x<5 x= 0,1,2,3,4,5
+    // {
+    //     if(msg.length == 3)
+    //     {
+    //         for (var i = 2; i < 7; i++)
+    //         {
+    //             console.log(i);
+    //         }
+    //     }
+    //     else
+    //     {
+    //         for (var i = msg.length; i > (msg.length - 2); i--)  //i=6;i>4;i--
+    //         {
+    //             console.log(i); //i= 7,6
+    //         }
+    //     }
+    // }
+
+
+    // function swap(arr) {
+    //     //your code here
+    //     let temp=0;
+    //     temp=arr[0];
+    //     arr[0]=arr[arr.length-1];
+    //     arr[arr.length-1]=temp
+    //     return arr;
+    // }
+    // console.log(swap(array))
+
+    // function swap(arr) {
+    //     //your code here
+    //     let first = 0;
+    //     let last = arr.length -1 ;
+    //     while ( first < last ){
+    //         let temp = arr[first];
+    //         arr[first] = arr[last];
+    //         arr[last] = temp ;
+    //         first++;
+    //         last--;
+    //     }
+    //     return arr;
+    // }
+    // console.log(swap(array))
     
     // console.log(array);
     // function sum_even_numbers(){

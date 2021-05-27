@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<!--Vẽ hình chữ nhật rỗng chiều dài n và chiều rộng m theo hình dưới đây.-->
+<!--Ví dụ: x = 4, y = 5-->
+<!--* * * * *-->
+<!--*          *-->
+<!--*          *-->
+<!--* * * * *-->
+
+<script>
+    let row = parseInt(prompt("Nhập chiều rong: "));
+    let column = parseInt(prompt("Nhập chiều dai: "));
+
+    // for (let i = 1; i <= row ; i++) {
+    //     for(let j = 1 ; j <= column; j++){
+    //         if(i === 1 || j === 1 || i === row || j === column){
+    //             document.write("*");
+    //         } else { document.write("&nbsp;&nbsp;")}
+    //     }
+    //     document.write("<br>");
+    // }
+
+    function chuNhatRong(row,column) {
+        for (let i = 1; i <= row ; i++) {
+            for(let j = 1 ; j <= column; j++){
+                if(i === 1 || j === 1 || i === row || j === column){
+                    document.write("*");
+                } else { document.write("&nbsp;&nbsp;")}
+            }
+            document.write("<br>");
+        }
+    }
+    chuNhatRong(row,column);
+
+
+</script>
+</body>
+</html>
