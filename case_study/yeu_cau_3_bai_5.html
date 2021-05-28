@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let menu="moi quy khach chon mon \n"
+        + "1. cafe \n"
+        + "2. Cam vắt \n"
+        + "3. Nước ép cà rốt \n"
+        + " 4. Nước ép cà chua \n"
+        + " 5.Nước lọc \n"
+        + "6. Nước dừa \n"
+        + "7. thoat dat hang \n";
+    let price = 0;
+    let total =0;
+    while (true) {
+        let choose = parseInt(prompt(menu));
+        let amount = 0;
+        total += price;
+        switch (choose) {
+            case 1:
+                amount = parseInt(prompt(" gia 10000, moi ban nhap so luong "))
+                price = amount * 10000;
+                alert("tong tien " + price);
+                break;
+            case 2:
+                amount = parseInt(prompt(" gia 15000, moi ban nhap so luong "))
+                price = amount * 15000;
+                alert("tong tien " + price);
+                break;
+            case 3:
+                amount = parseInt(prompt(" gia 20000, moi ban nhap so luong "))
+                price = amount * 20000;
+                alert("tong tien " + price);
+                break;
+            case 4:
+                amount = parseInt(prompt(" gia 25000, moi ban nhap so luong "))
+                price = amount * 25000;
+                alert("tong tien " + price);
+                break;
+        }
+        if (choose == 7) {
+            alert("tong tien " + total)
+            break;
+        }
+    }
+
+</script>
+</body>
+</html>

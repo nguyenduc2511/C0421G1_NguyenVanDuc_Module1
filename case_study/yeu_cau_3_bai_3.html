@@ -6,7 +6,17 @@
 </head>
 <body>
 <script>
-    
+    let numerators = [5, 2, 5,9];
+    let denominators = [6, 3, 4,5];
+    let max = numerators[0]/denominators[0];
+    let a= 0
+    for (let i =1; i<numerators.length;i++){
+        if(max<numerators[i]/denominators[i]){
+            max = numerators[i]/denominators[i];
+            a = i;
+        }
+    }
+    console.log(numerators[a]+ "/" +denominators[a] + " là phân số lớn nhất, có chỉ số là "+ a );
 </script>
 </body>
 </html>
