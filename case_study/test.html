@@ -6,6 +6,27 @@
 </head>
 <body>
 <script>
+
+
+    // function swap(a, b) {
+    //
+    //     var temp = a.value;
+    //
+    //     a.value = b.value;
+    //
+    //     b.value = temp;
+    //
+    // }
+    //
+    // var a = {value: 5};
+    //
+    // var b = {value: 10};
+    //
+    // swap(a, b);
+    //
+    // document.write("a = " + a.value + ", b = " + b.value);
+
+
     // let hang=5;
     // let cot=5;
     // for(let i=1;i<=hang;i++) {
@@ -17,26 +38,24 @@
     //     }document.write('<br>')
     // }
 //    tam can
-    let h = 3;
-    for (i = 0; i < h; i++) {
-        for (j = 0; j < 2*h; j++) {
-            if(j>=h-i && j <= h+i) {
-                // document.writeln('*');
-                document.write("* ")
-            }
-            else {
-                document.write(' &nbsp;&nbsp; ');
-            }
-        }
-        document.write('<br><br>');
+//     let h = 3;
+//     for (i = 0; i < h; i++) {
+//         for (j = 0; j < 2*h; j++) {
+//             if(j>=h-i && j <= h+i) {
+//                 // document.writeln('*');
+//                 document.write("* ")
+//             }
+//             else {
+//                 document.write(' &nbsp;&nbsp; ');
+//             }
+//         }
+//         document.write('<br><br>');
+//     }
+    var x = 5;
+    if(++x < 6) {
+        x--;
     }
-    for(let i=1;i<=3;i++){
-        console.log(i)
-        if(i===2){
-            break;
-        }
-    console.log("hello")
-    }
+    document.write(x);
 </script>
 </body>
 </html>

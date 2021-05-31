@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let str='nGUYen   tu lONG '
+    alert(format(str));
+    function format(str) {
+        let newArr = [];
+        let convert = ''
+        let arr = str.toLocaleLowerCase().split(' '); //Chuỗi --> mảng: ['hoa','hau',   ','  ,'hoan']
+        for (let i =0; i<arr.length; i ++ ) {
+            if(arr[i] != "") {
+                convert = arr[i].charAt(0).toUpperCase()+ arr[i].substring(1);
+                newArr.push(convert);
+            }
+        }
+        let newStr = newArr.join(' ')
+        return newStr; // chưa cắt được dấu cách!!!!
+    }
+
+
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function diemTrungBinh(number) {
+        let hocLuc = "";
+        if (number > 8) {
+            hocLuc = " Gioi ";
+        } else if (number >= 6.5) {
+            hocLuc = " Kha ";
+        } else if (number >= 5) {
+            hocLuc = " Trung Binh";
+        } else if (number >= 3.5) {
+            hocLuc = " Yeu";
+        } else {
+            hocLuc = " Kem "
+        }
+        return hocLuc
+    }
+
+    // console.log(diemTrungBinh(9))
+
+    class HocSinh {
+        constructor(id, name, dateOfBirth, diemTrungBinhCong) {
+            this.id = id;
+            this.name = name;
+            this.dateOfBirth = dateOfBirth;
+            this.diemTrungBinhCong = diemTrungBinhCong;
+        }
+        getId() {
+            return this.id;
+        }
+        getName() {
+            return this.name;
+        }
+        getDateOfBirth() {
+            return this.dateOfBirth;
+        }
+        getDiemTrungBinhCong() {
+            return this.diemTrungBinhCong;
+        }
+        setId(id) {
+            this.id = id;
+        }
+        setName(name) {
+            this.name = name;
+        }
+        setDateOfBirth(dateOfBirth) {
+            this.dateOfBirth = dateOfBirth;
+        }
+        setDiemTrungBinhCong(diemTrungBinhCong) {
+            this.diemTrungBinhCong = diemTrungBinhCong;
+        }
+        hocLuc(diemTrungBinhCong) {
+            document.write(this.name + " co diem trung binh = " + this.diemTrungBinhCong + " dat hoc luc " + diemTrungBinh(diemTrungBinhCong));
+        }
+    }
+
+    let hocSinh1 = new HocSinh(1, "Nguyen Van A", "20/05/2000", 9);
+    console.log(hocSinh1.name);
+    console.log(hocSinh1.dateOfBirth);
+    console.log(hocSinh1.id);
+    console.log(hocSinh1.diemTrungBinhCong);
+    hocSinh1.hocLuc(hocSinh1.diemTrungBinhCong)
+    document.write("<br>");
+
+    let hocSinh2 = new HocSinh(2, "Nguyen Van B", "21/05/2000", 7.5);
+    console.log(hocSinh2.name);
+    hocSinh2.hocLuc(hocSinh2.diemTrungBinhCong)
+    document.write("<br>");
+
+    let hocSinh3 = new HocSinh(3, "Nguyen Van C", "22/05/2000", 2.5);
+    console.log(hocSinh3.name);
+    hocSinh3.hocLuc(hocSinh3.diemTrungBinhCong)
+
+</script>
+</body>
+</html>

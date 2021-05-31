@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    function isMainNumber(num) {
+        if (Math.sqrt(num) % 1 === 0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    let num1 = parseInt(prompt("nhap so muon kiem tra"));
+    if (isMainNumber(num1)) {
+        alert(num1 + " la so chinh phuong ");
+    } else {
+        alert(num1 + " khong phai la so chinh phuong ");
+    }
+</script>
+</body>
+</html>

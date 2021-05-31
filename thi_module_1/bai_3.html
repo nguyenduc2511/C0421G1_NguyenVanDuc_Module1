@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function findMaxScore(array) {
+        let max = array[0];
+        let index = 0;
+        for (let i = 1; i < array.length; i++) {
+            if (max <= array[i]) {
+                max = array[i];
+                index = i;
+            }
+        }
+        alert("so diem lon nhat = " + max + " tai vi tri " + index);
+        console.log("so diem lon nhat = " + max + " tai vi tri " + index);
+    }
+
+    let a = parseInt(prompt("so diem muon nhap "))
+    let arr = new Array(a);
+    for (i = 0; i < arr.length; i++) {
+        arr[i] = parseInt(prompt("nhap gia tri vao vi tri thu " + i));
+    }
+    findMaxScore(arr);
+
+</script>
+</body>
+</html>
